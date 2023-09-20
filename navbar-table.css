@@ -1,0 +1,103 @@
+.table {
+    display: table;
+    width: 100%;
+}
+.tr {
+    display: table-row;
+}
+.td {
+    display: table-cell;
+}
+.top {
+    font-size: 16px;
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.834);
+}
+.top a {
+    text-decoration: none;
+    color: brown;
+    font-family: 'Mooli', sans-serif;
+}
+.fa-solid {
+    font-size: 25px;
+}
+button {
+    background-color: chocolate;
+    font-size: 20px;
+    height: 49px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover {
+    color: brown;
+    border-color: blue;
+    background-image: radial-gradient(rgb(114, 157, 238), rgb(24, 95, 227));
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.bottom span label {
+    font-family: 'Mooli', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    color: red;
+    padding: 10px 50px;
+    background-color: rgb(203, 203, 203);
+    border-radius: 15px;
+}
+.bottom span label:hover {
+    background-color: thistle;
+}
+.bottom span label::after {
+    content: "▼";
+}
+.bottom span ul {
+    display: none;
+}
+.bottom span input {
+    display: none;
+}
+.bottom span input:checked+label+ul {
+    font-family: 'Mooli', sans-serif;
+    list-style: none;
+    background-color: wheat;
+    display: table-row;
+    text-align: center;
+}
+
+.bottom span input:checked+label::after {
+    content: "▲";
+}
+span {
+    font-family: 'Mooli', sans-serif;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: red;
+    background-color: rgb(203, 203, 203);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+.bottom a:hover {
+    background-color: thistle;
+}
+
+.bottom li a {
+    color: rgb(103, 102, 102);
+    font-size: 16px;
+    background-color: transparent;
+    display: block;
+    padding: 5px;
+}
+
+.bottom li a:hover {
+    color: brown;
+    background-color: coral;
+}
+.bottom .td {
+    border: 5px solid white;
+}
+
+
